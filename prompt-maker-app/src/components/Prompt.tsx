@@ -1,12 +1,6 @@
-import React from "react";
-
 const Prompt = () => {
   return (
-    <div className="input-group-lg mb-3  flex-nowrap">
-      <span
-        className="input-group-text"
-        id="addon-wrapping inputGroup-sizing-lg"
-      ></span>
+    <div className="input-group-lg w-75 position-absolute top-50 start-50 translate-middle">
       <input
         type="text"
         className="form-control"
