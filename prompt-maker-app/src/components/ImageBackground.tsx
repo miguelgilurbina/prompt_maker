@@ -7,10 +7,10 @@ interface ImageBackgroundProps {
 const ImageBackground: React.FC<ImageBackgroundProps> = ({ imageUrl }) => {
   const backgroundStyles: React.CSSProperties = {
     backgroundImage: `url(${imageUrl})`,
-    backgroundSize: "auto",
-    backgroundPosition: "center",
-    width: "1458px ",
-    height: "816px",
+    backgroundPosition: "Center",
+    //Encontrar forma de que sea más responsivo, investigar sobre cómo alterar el estilo en React con Typescript
+    width: "1920px",
+    height: "903px",
   };
   return <div style={backgroundStyles}></div>;
 };
