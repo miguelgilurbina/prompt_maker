@@ -7,47 +7,18 @@ const NavBar = () => {
             Funciones
           </a>
         </li>
-        <li className="nav-item dropdown">
-          <a
-            className="nav-link dropdown-toggle"
-            data-bs-toggle="dropdown"
-            href="#"
-            role="button"
-            aria-expanded="false"
-          >
+        <li className="nav-item">
+          <a className="nav-link active" href="#" aria-current="page">
             Estilos
           </a>
-          <ul className="dropdown-menu">
-            <li>
-              <a className="dropdown-item" href="#">
-                Action
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
-            </li>
-            <li></li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Separated link
-              </a>
-            </li>
-          </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <a className="nav-link active" href="#" aria-current="page">
             Palabras Clave
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">
+          <a className="nav-link active" href="#" aria-current="page">
             Parámetros
           </a>
         </li>
